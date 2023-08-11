@@ -1,0 +1,96 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.holder {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+
+h2 {
+  color: rgb(245, 172, 112);
+  text-align: center;
+  justify-content: center;
+  font-family: italic;
+  font-weight: bold;
+  font-size: 40px;
+  
+}
+
+header {
+  background-color: rgb(243, 151, 65);
+  padding: 16px;
+}
+
+
+header h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 100;
+  font-style: italic;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+footer {   
+  background-color: rgb(77, 77, 77);
+  clear: both;
+  text-align: center;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+nav {
+  background-color: rgb(255, 200, 156);
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0%;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  flex-grow: 1;
+  /*le da distancia automatica y movilidad entre las secciones*/
+}
+
+nav ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 3px 6px;
+  display: block;
+  text-align: center;
+}
+
+nav ul li a:hover {
+  background-color: rgba(255, 97, 97, 0.3);
+}
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.holder {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+
+h2 {
+  color: rgb(245, 172, 112);
+  text-align: center;
+  justify-content: center;  
+  font-family: italic;
+  font-weight: bold;
+  font-size: 40px;
+  
+}

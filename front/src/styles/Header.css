@@ -1,0 +1,16 @@
+header {
+    background-color: rgb(243, 151, 65);
+    padding: 16px;
+}
+
+
+header h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    bottom: 55px;
+    margin-left: 15px;
+}

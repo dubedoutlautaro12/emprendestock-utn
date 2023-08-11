@@ -1,0 +1,32 @@
+.emprendedores {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.emprendedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px rgba(201, 195, 195, 0.76) solid;
+    text-align: center;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 15px;
+    width: 30%;
+}
+
+.emprendedor img {
+    align-content: center;
+    border: 5px rgb(250, 0, 0) solid;
+    border-radius: 30px;
+    height: 100px;
+    width: 100px;
+} 
+
+
+.mainsearch{
+    text-align: start;
+    margin-left: 10px;
+}

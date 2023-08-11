@@ -1,0 +1,136 @@
+.mainform {
+    display: inline-flex;
+    gap: 15px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.formulario p {
+    display: flex;
+}
+
+
+
+.formulario p label {
+    display: flex;
+    font-family: 'Helvetica Neue';
+    min-width: 100px;
+    align-items: center;
+    justify-content: center
+}
+
+.formulario p:nth-child(4){
+    align-items: start;
+}
+
+
+.formulario p input,
+.formulario p textarea {
+    background-color: #ddd;
+    border-radius: 5px;
+    border: 1px solid #999;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+}
+
+.formulario textarea{
+    resize: none;
+    height: 150px;
+}
+
+
+
+
+.acciones [type="submit"] {
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;
+    position: relative;
+    left: 23rem;
+}
+
+.acciones [type="submit"]:hover{
+    background-color: rgb(146, 95, 0);
+}
+
+
+.nosotros {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.nosotros h2 {
+    margin-bottom: 5%;
+}
+
+
+
+.personas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.persona-1 img {
+    width: 150px;
+    height: 80px;
+    border-radius: 50px;
+    border: 5px solid #ff008063;
+}
+
+
+
+.persona-1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 47%;
+    background-color: rgb(253, 161, 55);
+    border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+
+}
+
+.persona-2 img {
+    width: 150px;
+    height: 80px;
+    border-radius: 50px;
+    border: 5px solid #ff008063;
+}
+
+.persona-2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 47%;
+    background-color: rgb(253, 161, 55);
+    border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+
+}
+
+.persona-2 p {
+    margin-bottom: 40px;
+}
+
+.formulario .boton {
+    text-decoration: none;
+    padding: 1%;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+
+}

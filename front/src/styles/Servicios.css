@@ -1,0 +1,32 @@
+.Servicios{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 10PX 20px 20px;
+    display: flex;
+    gap: 32PX;
+    align-items: center;
+}
+
+.Servicios .servicio h3{
+    font-style: italic; 
+    border-bottom: 1px solid rgba(255, 51, 0, 0.671); ;
+}
+
+
+.Servicios:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+
+.Servicios img{
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+}
+
+h3{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgba(255, 51, 0, 0.671);
+}

@@ -1,0 +1,28 @@
+nav {
+    background-color: rgb(255, 200, 156);
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0%;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex-grow: 1;
+    /*le da distancia automatica y movilidad entre las secciones*/
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 97, 97, 0.3);
+}
