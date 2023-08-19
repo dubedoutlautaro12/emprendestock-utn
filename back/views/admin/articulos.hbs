@@ -1,0 +1,47 @@
+<div>
+  <p class="text-end">Hola! {{persona}} <a class="btn btn-danger" href="/admin/login/logout">Cerrar Session <i
+        class="fas fa-sing-out-alt"></i></a></p>
+</div>
+
+<div class="row">
+  <div class="col-7">
+    <H3>Listado de Articulos</H3>\
+  </div>
+  <div class="col-5 text-end">
+    <a class="btn btn-sucess" style="background-color: green;" href="/admin/articulos/new"><i class="fa fa-plus" aria-hidden="true"></i>Nuevo</a>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Titulo</th>
+          <th scope="col">Emprendedor</th>
+          <th class="text-end">acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        {{#each articulos}}
+
+        <tr>
+          <th scope="row">{{id}}</th>
+          <td>{{nombre}}</td>
+          <td>{{emprendimiento}}</td>
+          <td class="text-end">
+            <a class="btn btn-secondary" href="">
+              <i class="fa fa-pencil" aria-hidden="true"></i></a>
+            <a class="btn btn-secondary" href="">
+              <i class="fa fa-trash" aria-hidden="true"></i></a>
+          </td>
+        </tr>
+        {{/each}}
+
+      </tbody>
+    </table>
+  </div>
+
+</div>

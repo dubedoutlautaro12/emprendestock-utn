@@ -1,12 +1,12 @@
+
 import '../styles/HomePage.css'
-const  HomePage = (props) => {
+
+const HomePage = (props) => {
 
     return (
         <main className="holder">
             <h2>BIENVENIDOS</h2>
-            <div className="foto1">
-                <img src="images/aaa.PNG" alt="foto-ceramica" />
-            </div>
+
             <div className="columnas">
                 <div className="bienvenidos">
                     <h2>COMPRADORES</h2>
@@ -34,66 +34,66 @@ const  HomePage = (props) => {
             <div className='recomendado'>
                 <div class="tarjeta">
                     <div class="tarjeta-interna">
-                    <div class="tarjeta-frente">
-                        <img src="images/aaa.PNG" alt="tarjeta"/>
-                    </div>
+                        <div class="tarjeta-frente">
+                            <img src="images/aaa.PNG" alt="tarjeta" />
+                        </div>
 
-                    <div class="tarjeta-atras">
-                        <div class="tarjeta-contenido">
-                            <h2>Card Title</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, eros at posuere fringilla, turpis tortor efficitur velit, at fringilla tortor magna id quam.</p>
-                            <a href="#" class="btn">Read More</a>
+                        <div class="tarjeta-atras">
+                            <div class="tarjeta-contenido">
+                                <h2>Card Title</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, eros at posuere fringilla, turpis tortor efficitur velit, at fringilla tortor magna id quam.</p>
+                                <a href="#" class="btn">Read More</a>
+                            </div>
                         </div>
                     </div>
-                </div>
                 </div>
 
                 <div class="tarjeta">
                     <div class="tarjeta-interna">
-                    <div class="tarjeta-frente">
-                        <img src="images/aaa.PNG" alt="tarjeta"/>
-                    </div>
+                        <div class="tarjeta-frente">
+                            <img src="images/aaa.PNG" alt="tarjeta" />
+                        </div>
 
-                    <div class="tarjeta-atras">
-                        <div class="tarjeta-contenido">
-                            <h2>Card Title</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, eros at posuere fringilla, turpis tortor efficitur velit, at fringilla tortor magna id quam.</p>
-                            <a href="#" class="btn">Read More</a>
+                        <div class="tarjeta-atras">
+                            <div class="tarjeta-contenido">
+                                <h2>Card Title</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, eros at posuere fringilla, turpis tortor efficitur velit, at fringilla tortor magna id quam.</p>
+                                <a href="#" class="btn">Read More</a>
+                            </div>
                         </div>
                     </div>
-                </div>
                 </div>
 
                 <div class="tarjeta">
                     <div class="tarjeta-interna">
-                    <div class="tarjeta-frente">
-                        <img src="images/aaa.PNG" alt="tarjeta"/>
-                    </div>
+                        <div class="tarjeta-frente">
+                            <img src="images/aaa.PNG" alt="tarjeta" />
+                        </div>
 
-                    <div class="tarjeta-atras">
-                        <div class="tarjeta-contenido">
-                            <h2>Card Title</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, eros at posuere fringilla, turpis tortor efficitur velit, at fringilla tortor magna id quam.</p>
-                            <a href="#" class="btn">Read More</a>
+                        <div class="tarjeta-atras">
+                            <div class="tarjeta-contenido">
+                                <h2>Card Title</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, eros at posuere fringilla, turpis tortor efficitur velit, at fringilla tortor magna id quam.</p>
+                                <a href="#" class="btn">Read More</a>
+                            </div>
                         </div>
                     </div>
-                </div>
                 </div>
 
                 <div class="tarjeta">
                     <div class="tarjeta-interna">
-                    <div class="tarjeta-frente">
-                        <img src="images/aaa.PNG" alt="tarjeta"/>
-                    </div>
+                        <div class="tarjeta-frente">
+                            <img src="images/aaa.PNG" alt="tarjeta" />
+                        </div>
 
-                    <div class="tarjeta-atras">
-                        <div class="tarjeta-contenido">
-                            <h2>Card Title</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, eros at posuere fringilla, turpis tortor efficitur velit, at fringilla tortor magna id quam.</p>
-                            <a href="#" class="btn">Read More</a>
+                        <div class="tarjeta-atras">
+                            <div class="tarjeta-contenido">
+                                <h2>Card Title</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, eros at posuere fringilla, turpis tortor efficitur velit, at fringilla tortor magna id quam.</p>
+                                <a href="#" class="btn">Read More</a>
+                            </div>
                         </div>
                     </div>
-                </div>
                 </div>
             </div>
         </main>

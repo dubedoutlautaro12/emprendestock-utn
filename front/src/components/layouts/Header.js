@@ -5,9 +5,8 @@ import '../../styles/Header.css'
 const Header = (props) => {
     return(
     <header>
-        <div className="holder">
-            <img src="images/logo-temporal.jpg" alt="logo"></img>
-            <h1>Emprende Stock</h1>
+        <div className="logo-principal">
+            <img src="images/logo-ofc.png" alt="logo"></img>
         </div>
     </header>
     )

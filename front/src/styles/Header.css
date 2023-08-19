@@ -1,8 +1,18 @@
 header {
-    background-color: rgb(243, 151, 65);
+    background-color: #EA7913;
     padding: 16px;
 }
 
+header img{
+    width: 200px;
+    height: 200px;
+}
+
+.logo-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
 
 header h1 {
     color: white;
