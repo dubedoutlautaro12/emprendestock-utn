@@ -1,0 +1,27 @@
+<div class="container" style="margin:100px auto">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <h4>Modifica tu articulo</h4>
+            <form action="/admin/articulos/modificar" method="post">
+                <input type="hidden" name="id" value="{{articulo.id}}">
+                <div class="mb-3 row">
+                    <input type="text" class="form-control" placeholder="Ingresa el nombre de tu emprendimiento." name="emprendimiento" value="{{articulo.emprendimiento}}">
+                </div>
+                <div class="mb-3 row">
+                    <input type="text" class="form-control" placeholder="Articulo" name="nombre" value="{{articulo.nombre}}">
+                </div>
+
+                <div class="mb-3 row">
+                    <textarea type="text" class="form-control" placeholder="Descripcion" name="descripcion" >{{articulo.descripcion}}</textarea>
+                </div>
+                <div class="mb-3 row">
+                    <textarea type="text" class="form-control" placeholder="Valor" name="valor" >{{articulo.valor}}</textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Modificar</button>
+            </form>
+            {{#if error}}
+            <p>{{message}}</p>
+            {{/if}}
+        </div>
+    </div>
+</div>

@@ -42,6 +42,44 @@ router.post('/new', async (req, res, next)=>{
   }
 })
 
+router.get('/borrar/:id', async (req,res,next)=>{
+  var id = req.params.id;
+  await articulosModel.deleteArticulos(id)
+  res.redirect('/admin/articulos')
+})
+
+
+router.get('/modificar/:id', async (req,res,next)=>{
+  var id = req.params.id;
+  var articulo = await articulosModel.getArticulo(id)
+  res.render('admin/modificar', {
+    layout: 'admin/layout',
+    articulo 
+  })
+})
+
+router.post('/modificar', async (req, res, next)=> {
+  try{
+    var obj = {
+      emprendimiento: req.body.emprendimiento,
+      nombre: req.body.nombre,
+      descripcion: req.body.descripcion,
+      valor: req.body.valor
+    }
+
+    await articulosModel.modificacionArticulo(obj, req.body.id);
+    res.redirect('/admin/articulos');
+
+  }catch (error){
+    console.log(error)
+    res.render('admin/modificar', {
+      layout: 'admin/layout',
+      error: true,
+      message: 'No se modifico el articulo'
+    })
+  }
+})
+
 
 module.exports = router;
 
