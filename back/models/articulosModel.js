@@ -38,7 +38,19 @@ async function modificacionArticulo(obj, id){
         return rows;
     } catch(error){
         throw error;
-    }
+    }                                                           
 }
+
+
+/////KJSDFKLJASDKFLJASDKFJLAÑKDJFASÑDKFSDFJLKDSFJKADSJFKLDSAJF
+/////KJSDFKLJASDKFLJASDKFJLAÑKDJFASÑDKFSDFJLKDSFJKADSJFKLDSAJF
+
+/////KJSDFKLJASDKFLJASDKFJLAÑKDJFASÑDKFSDFJLKDSFJKADSJFKLDSAJF
+
+/////KJSDFKLJASDKFLJASDKFJLAÑKDJFASÑDKFSDFJLKDSFJKADSJFKLDSAJF
+
+/////KJSDFKLJASDKFLJASDKFJLAÑKDJFASÑDKFSDFJLKDSFJKADSJFKLDSAJF
+
+
 
 module.exports = {getArticulos, insertArticulos, deleteArticulos, getArticulo, modificacionArticulo}
