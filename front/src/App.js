@@ -9,7 +9,7 @@ import HomePage from "./pages/HomePage";
 import Contact from "./pages/Contact";
 import Search from "./pages/Search";
 import Servicios from "./pages/Servicios"
-import Unirme from "./pages/Unirme"
+import Articulos from "./pages/Articulos"
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="Search" element={<Search />} />
           <Route path="Servicios" element={<Servicios />} />
-          <Route path="Unirme" element={<Unirme />} />
+          <Route path="Articulos" element={<Articulos />} />
 
         </Routes>
       </BrowserRouter>
