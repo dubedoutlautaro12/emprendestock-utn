@@ -6,16 +6,16 @@
 import React from "react";
 
 const ArticuloItem = (props) => {
-    const { name, description, emprendimiento, imagen, valor} =props
+    const { name, description, emprendimiento, imagen, valor, body} =props
 
     return(
         <div className="articulos">
             <h1>{name}</h1>
             <h2>{description}</h2>
             <h3>{emprendimiento}</h3>
-            <img src="{imagen}"/>
+            <img src={imagen} alt="A" />
             <p>{valor}</p>
-            <div dangerouslySetInnerHTML={{__html: body}}/>
+            <div dangerouslySetInnerHTML={{ __html: body }} />
             <hr />
         </div>
     )

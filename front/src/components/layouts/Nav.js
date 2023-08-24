@@ -11,7 +11,7 @@ const Nav = (props) => {
                     <li><Link to="/contact">Contact</Link></li>
                     <li><Link to="/search">Search</Link></li>
                     <li><Link to="/servicios">Servicios</Link></li>
-                    <li><Link to="/unirme">Unirme</Link></li>
+                    <li><Link to="/articulos">articulos</Link></li>
                 </ul>
             </div>
         </nav>

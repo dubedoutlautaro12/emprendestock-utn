@@ -24,9 +24,9 @@ router.get('/', async function (req, res, next) {
         imagen
       }
     } else {
-      return {
-        ...articulo,
-        imagen: "NC"
+        return {
+          ...articulo,
+          imagen: ""
       }
     }
 
@@ -80,8 +80,8 @@ router.post('/new', async (req, res, next) => {
 router.get('/borrar/:id', async (req, res, next) => {
   var id = req.params.id;
   let articulo = await articulosModel.getArticulo(id)
-  if(articulo.img_id){
-    await(destroy(articulo.img_id))
+  if (articulo.img_id) {
+    await (destroy(articulo.img_id))
   }
   await articulosModel.deleteArticulos(id)
   res.redirect('/admin/articulos')
