@@ -7,7 +7,6 @@ import Footer from "./components/layouts/Footer";
 
 import HomePage from "./pages/HomePage";
 import Contact from "./pages/Contact";
-import Search from "./pages/Search";
 import Servicios from "./pages/Servicios"
 import Articulos from "./pages/Articulos"
 
@@ -21,7 +20,6 @@ function App() {
 
           <Route path="/" element={<HomePage />}></Route>
           <Route path="contact" element={<Contact />} />
-          <Route path="Search" element={<Search />} />
           <Route path="Servicios" element={<Servicios />} />
           <Route path="Articulos" element={<Articulos />} />
 

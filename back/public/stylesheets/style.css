@@ -4,9 +4,21 @@ body {
   line-height: 20px;
 }
 
-.holder {
-  max-width: 1300px;
-  margin: 0 auto;
+header {
+  background-color: #EA7913;
+  padding: 16px;
+}
+
+header img{
+  width: 200px;
+  height: 200px;
+}
+
+header p {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+
 }
 
 
@@ -20,20 +32,6 @@ h2 {
   
 }
 
-header {
-  background-color: rgb(243, 151, 65);
-  padding: 16px;
-}
-
-
-header h1 {
-  color: white;
-  font-size: 40px;
-  font-weight: 100;
-  font-style: italic;
-  display: inline-block;
-  margin-left: 20px;
-}
 
 footer {   
   background-color: rgb(77, 77, 77);
@@ -73,30 +71,38 @@ nav ul li a:hover {
 }
 
 
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  line-height: 20px;
-}
-
 .holder {
   max-width: 1300px;
   margin: 0 auto;
 }
 
+h3{
+ margin-left: 10px;
+}
 
-h2 {
-  color: rgb(245, 172, 112);
-  text-align: center;
-  justify-content: center;  
-  font-family: italic;
-  font-weight: bold;
-  font-size: 40px;
+.persona-saludo p{
+  font-family: Cambria;
+  font-size: 20px;
+  margin-left: 15px;
+  margin-top: 15px;
   
 }
+
+.saludo{
+  margin-bottom: -45px;
+}
+
+.btn{
+  margin-right: 5px;
+}
+
+
+
 /* 
 #5fbdd6 AZUL
 #1f9ec7 AZUL CLARITO
 #ea7913 NARANJA CLARITO
 #ba7323 NARANJA OSCURO
 #215b6f AZUL OSCURO */
+
+

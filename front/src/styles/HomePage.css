@@ -3,12 +3,6 @@
     margin-bottom: 20px;
 }
 
-.columnas {
-    display: flex;
-    justify-content: space-between;
-
-}
-
 .holder {
     max-width: 1300px;
     margin: 0 auto;
@@ -18,36 +12,26 @@
 .bienvenidos {
     margin-bottom: 20px;
     margin-right: 10px;
-    width: 50%;
     padding-bottom: 15px;
-    font-style: italic;
+    /* font-weight: bold;  */
+    font-family: 'Open Sans';
     padding-right: 10px;
     box-sizing: border-box;
-    border: 5px rgb(255, 200, 156) solid;
+    border: 5px #215B6F solid;
     text-align: center;
     border-radius: 31px 31px 31px 31px;
     -webkit-border-radius: 31px 31px 31px 31px;
     -moz-border-radius: 31px 31px 31px 31px;
-
 }
 
-.iniciosession {
-    position: static;
-    text-decoration: none;
-    background-color: rgb(243, 188, 86);
-    padding: 1%;
-    border-radius: 10px 10px 10px 10px;
-    -webkit-border-radius: 10px 10px 10px 10px;
-    -moz-border-radius: 10px 10px 10px 10px;
+.cursive{
+    font-family: 'Comfortaa';
+    font-weight: 100;
+    letter-spacing: 0.2em;
 }
 
-a.iniciosession {
-    color: black;
-}
 
-a.iniciosession:hover {
-    background-color: rgb(255, 166, 0);
-}
+/* ------ */
 
 .recomendado{
     display: flex;
@@ -55,9 +39,6 @@ a.iniciosession:hover {
     justify-content: space-between;
     padding: 15px;
 }
-
-
-
 
 .tarjeta {
     width: 300px;
@@ -92,11 +73,13 @@ a.iniciosession:hover {
     overflow: hidden;
 }
 .tarjeta-frente img{
+    max-width: 100%;
     max-height: 100%;
+    display: block; 
+    margin: auto; 
 }
 .tarjeta-atras{
     background-color: #555;
-    color: white;
     transform: rotateY(180deg);
     display: flex;
     justify-content: center;
@@ -123,10 +106,46 @@ a.iniciosession:hover {
     background-color: #f1f1f1;
     color: #333;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 78px;
+
 }
-  
+
 .btn:hover {
     background-color: #333;
     color: #f1f1f1;
+}
+
+.holder-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    gap: 20px; 
+}
+
+.info-frontal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+
+.valor {
+    margin-bottom: -8px; 
+    font-weight: bold; 
+    color: rgb(0, 136, 0);
+}
+
+.emprendimiento {
+    font-size: 16px; 
+}
+
+.recomendado .tarjeta{
+    width: 600px;
+    height: 400px;
+    perspective: 1000px;
+
+}
+
+.tono-dis{
+    color: #3baad1
 }

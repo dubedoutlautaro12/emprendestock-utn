@@ -1,11 +1,15 @@
-<div>
-  <p class="text-end">Hola! {{persona}} <a class="btn btn-danger" href="/admin/login/logout">Cerrar Session <i
+<head>
+<link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<div class="persona-saludo">
+  <p class="saludo">Hola {{persona}}, este es el: </p>
+  <p class="text-end"><a class="btn btn-danger" href="/admin/login/logout">Cerrar Session <i
         class="fas fa-sing-out-alt"></i></a></p>
 </div>
 
 <div class="row">
   <div class="col-7">
-    <H3>Listado de Articulos</H3>\
+    <H3>Listado de Articulos</H3>
   </div>
   <div class="col-5 text-end">
     <a class="btn btn-sucess" style="background-color: green;" href="/admin/articulos/new"><i class="fa fa-plus" aria-hidden="true"></i>Nuevo</a>

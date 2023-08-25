@@ -4,7 +4,7 @@ import '../../styles/Footer.css'
 const Footer = () => {
     return(
         <footer>
-            <p> Diseneado por Dubedout Lautaro - 2023</p>
+            <h3> Diseneado por Dubedout Lautaro - 2023</h3>
         </footer>
     )
 }

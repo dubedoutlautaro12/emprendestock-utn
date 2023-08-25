@@ -18,18 +18,27 @@ const Articulos = (props) => {
 
 
     return (
+
         <section className="holder">
-        <h2>Novedades</h2>
-            {loading ? (
-                <p>Cargando...</p>
-        ) : (   
-                articulos.map(item => <ArticuloItem key={item.id}
-                name={item.nombre} description={item.descripcion}
-                emprendimiento={item.emprendimiento} imagen={item.imagen}
-                valor={item.valor}/>)
-            )}
+            <div>
+                <h2>NOVEDADES</h2>
+            </div>
+            <div className="holder-1">
+                {loading ? (
+                    <p>Cargando...</p>
+            ) : (   
+                    articulos.map(item => <ArticuloItem key={item.id}
+                    name={item.nombre} description={item.descripcion}
+                    emprendimiento={item.emprendimiento} imagen={item.imagen}
+                    valor={item.valor}/>)
+                )}
+            </div>
+
         </section>
 
+
+
+                    
     );
 }
 

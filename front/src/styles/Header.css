@@ -13,14 +13,3 @@ header img{
     justify-content: center;
     align-items: center; 
 }
-
-header h1 {
-    color: white;
-    font-size: 40px;
-    font-weight: 100;
-    font-style: italic;
-    display: inline-block;
-    position: relative;
-    bottom: 55px;
-    margin-left: 15px;
-}

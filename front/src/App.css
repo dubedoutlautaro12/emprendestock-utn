@@ -9,13 +9,25 @@ body {
   margin: 0 auto;
 }
 
+h1{
+  color: #215B6F;
+  text-align: center;
+  font-weight: bold;
+  font-family: revert;
+  font-size: 40px;
+}
 
 h2 {
-  color: rgb(245, 172, 112);
+  color: #EA7913;
   text-align: center;
   justify-content: center;
-  font-family: italic;
+  font-family: 'Comfortaa', cursive;
   font-weight: bold;
   font-size: 40px;
   
+}
+
+p{
+  color: #215B6F;
+  font-weight: bold;
 }

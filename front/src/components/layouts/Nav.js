@@ -8,10 +8,9 @@ const Nav = (props) => {
             <div>
                 <ul>
                     <li><Link to="/">Home</Link></li>
-                    <li><Link to="/contact">Contact</Link></li>
-                    <li><Link to="/search">Search</Link></li>
+                    <li><Link to="/articulos">Articulos</Link></li>
                     <li><Link to="/servicios">Servicios</Link></li>
-                    <li><Link to="/articulos">articulos</Link></li>
+                    <li><Link to="/contact">Contacto</Link></li>
                 </ul>
             </div>
         </nav>
